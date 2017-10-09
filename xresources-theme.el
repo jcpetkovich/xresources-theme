@@ -203,7 +203,7 @@
 
    ;; company-mode
    `(company-tooltip ((t (:foreground ,foreground :background ,background))))
-   `(company-tooltip-selection ((t (:foreground ,foreground :background ,background))))
+   `(company-tooltip-selection ((t (:foreground ,foreground :background ,background :weight bold))))
    `(company-tooltip-mouse ((t (:background ,background))))
    `(company-tooltip-common ((t (:foreground ,green))))
    `(company-tooltip-common-selection ((t (:foreground ,green))))
@@ -392,8 +392,7 @@
    `(helm-mu-contacts-name-face ((t (:foreground ,foreground :background ,background))))
 
    ;; hl-line-mode
-   `(hl-line-face ((t (:background ,background))
-                   (t :weight bold)))
+   `(hl-line-face ((t (:background ,background :weight bold))))
    `(hl-line ((t (:background ,background :weight bold))))
 
    ;; ido-mode
