@@ -69,9 +69,6 @@
 
 (deftheme xresources "~/.Xresources as a theme")
 
-(set-face-attribute 'default nil :font (get-resource "Emacs.font"))
-(set-frame-font (get-resource "Emacs.font") nil t)
-
 (let* ((foreground (xresources-theme-color "foreground"))
        (background (xresources-theme-color "background"))
        (black (xresources-theme-color "color0"))
