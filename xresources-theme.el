@@ -69,8 +69,8 @@
 
 (deftheme xresources "~/.Xresources as a theme")
 
-(let* ((foreground (xresources-theme-color "foreground"))
-       (background (xresources-theme-color "background"))
+(let* ((foreground (xresources-theme-color "emacs.foreground"))
+       (background (xresources-theme-color "emacs.background"))
        (black (xresources-theme-color "color0"))
        (red (xresources-theme-color "color1"))
        (green (xresources-theme-color "color2"))
