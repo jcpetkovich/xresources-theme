@@ -106,7 +106,7 @@
    `(header-line ((t (:foreground ,yellow
                                   :background ,background
                                   :box (:line-width -1 :style released-button)))))
-   `(highlight ((t (:background ,gray))))
+   `(highlight ((t (:background ,background))))
    `(success ((t (:foreground ,green :weight bold))))
    `(warning ((t (:foreground ,red :weight bold))))
 
@@ -394,8 +394,7 @@
    ;; hl-line-mode
    `(hl-line-face ((t (:background ,background))
                    (t :weight bold)))
-   `(hl-line ((t (:background ,background)) ; old emacsen
-              (t :weight bold)))
+   `(hl-line ((t (:background ,background :weight bold))))
 
    ;; ido-mode
    `(ido-first-match ((t (:foreground ,yellow :weight bold))))
